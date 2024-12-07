@@ -1,0 +1,10 @@
+from tkinter import*
+root=Tk()
+root.title("LOGIN PAGE!!!")
+root.geometry("400x400")
+root.config(background="Teal")
+user_name=Label(root,text="Username").place(x=40,y=80)
+password=Label(root,text="Password").place(x=40,y=140)
+user_input=Entry(root,width=40).place(x=100,y=80)
+password_input=Entry(root,show="*",width=40).place(x=100,y=140)
+root.mainloop()
